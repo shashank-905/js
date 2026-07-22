@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox and radio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-700 flex flex-col h-screen itmes-center justify-center px-20">
+    <div class="bg-slate-600 py-5 px-10 rounded-lg flex flex-col gap-2.5 items-start">
+        <div class="flex gap-4">
+            <input type="checkbox" id="myCheckbox" name="card" class="accent-emerald-300">
+            <label for="myCheckbox">subscribe</label><br>
+        </div>
+        <div class="flex gap-4">
+            <input type="radio" id="visaBtn" name="card" class="accent-emerald-300">
+            <label for="visaBtn">visa</label><br>
+        </div>
+        <div class="flex gap-4">
+            <input type="radio" id="mastercardBtn" name="card" class="accent-emerald-300">
+            <label for="mastercardBtn">mastercardBtn</label><br>
+        </div>
+        <div class="flex gap-4">
+            <input type="radio" id="paypalBtn" name="card" class="accent-emerald-300">
+            <label for="paypalBtn">paypalBtn</label><br>
+        </div>
+        <button type="submit" id="mySubmit"
+            class="bg-emerald-500 rounded-2xl mt-3.5 px-5 py-2 text-[15px]">submit</button>
+        </input>
+        <p id="subResult"></p>
+        <p id="paymantResult"></p>
+
+
+
+        <script src="cb.js"></script>
+</body>
+
+</html>
