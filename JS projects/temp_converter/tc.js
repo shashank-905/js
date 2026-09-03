@@ -12,7 +12,7 @@ function convert(){
     }
     else if(toCelsius.checked){
        temp=Number(textbox.value);
-       temp=5/9(temp-32);
+       temp=(5/9)*(temp-32);
         result.textContent=temp.toFixed(1)+"Celsius";
     }
     else{
